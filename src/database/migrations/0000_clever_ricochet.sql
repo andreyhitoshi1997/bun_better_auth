@@ -11,7 +11,7 @@ CREATE TABLE "accounts" (
 	"id" uuid PRIMARY KEY NOT NULL,
 	"account_id" uuid NOT NULL,
 	"provider_id" uuid NOT NULL,
-	"user_id" text NOT NULL,
+	"user_id" uuid NOT NULL,
 	"access_token" text,
 	"refresh_token" text,
 	"id_token" text,
