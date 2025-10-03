@@ -21,8 +21,8 @@ CREATE TABLE "verifications" (
 --> statement-breakpoint
 CREATE TABLE "accounts" (
 	"id" uuid PRIMARY KEY NOT NULL,
-	"account_id" uuid NOT NULL,
-	"provider_id" uuid NOT NULL,
+	"account_id" text NOT NULL,
+	"provider_id" text NOT NULL,
 	"user_id" uuid NOT NULL,
 	"access_token" text,
 	"refresh_token" text,

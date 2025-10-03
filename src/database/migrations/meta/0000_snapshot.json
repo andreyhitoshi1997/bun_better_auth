@@ -1,5 +1,5 @@
 {
-  "id": "ddef6164-a739-4646-9965-5640d45dca80",
+  "id": "6abcf73f-8785-48a6-b99d-0e459927692b",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "7",
   "dialect": "postgresql",
@@ -148,13 +148,13 @@
         },
         "account_id": {
           "name": "account_id",
-          "type": "uuid",
+          "type": "text",
           "primaryKey": false,
           "notNull": true
         },
         "provider_id": {
           "name": "provider_id",
-          "type": "uuid",
+          "type": "text",
           "primaryKey": false,
           "notNull": true
         },

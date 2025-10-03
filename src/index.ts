@@ -1,8 +1,7 @@
 import { Elysia } from "elysia";
 import { z } from "zod";
 import { openapi } from "@elysiajs/openapi";
-import { betterAuthPlugin } from "./http/plugins/better-auth";
-import { OpenAPI } from "./auth";
+import { betterAuthPlugin, OpenAPI } from "./http/plugins/better-auth";
 
 const app = new Elysia()
   .use(

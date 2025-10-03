@@ -6,8 +6,8 @@ export const accounts = pgTable("accounts", {
   id: uuid("id")
     .primaryKey()
     .$defaultFn(() => randomUUIDv7()),
-  accountId: uuid("account_id").notNull(),
-  providerId: uuid("provider_id").notNull(),
+  accountId: text("account_id").notNull(),
+  providerId: text("provider_id").notNull(),
   userId: uuid("user_id")
     .notNull()
     .references(() => users.id, { onDelete: "cascade" }),
